@@ -76,6 +76,12 @@ button {
   cursor: pointer;
 }
 
+#about,
+#discord,
+#contactadd  {
+  padding: 48px 0;
+}
+
 /* 
 
 ABOUT
@@ -83,9 +89,10 @@ ABOUT
 */
 
 #about {
-  padding: 48px 0;
   background-color: #f8ffdc;
 }
+
+
 
 h2 {
   font-size: 60px;
