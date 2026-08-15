@@ -31,10 +31,26 @@ li {
 }
 
 a {
+  position: relative;
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
   color: #333;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: -10%;
+  background-color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover::before {
+  width: 120%;
 }
 
 header {
