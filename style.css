@@ -168,4 +168,17 @@ footer {
 .footer__logo {
   max-width: 480px;
   width: 100%;
+  margin-bottom: 16px;
 }
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.footer__list__link {
+  font-weight: 700;
+}
+
