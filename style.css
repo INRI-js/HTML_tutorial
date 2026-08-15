@@ -46,6 +46,14 @@ header {
   padding: 24px;
 }
 
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-size: 72px;
   font-weight: 900;
