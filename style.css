@@ -76,6 +76,12 @@ button {
   cursor: pointer;
 }
 
+/* 
+
+ABOUT
+
+*/
+
 #about {
   padding: 48px 0;
   background-color: #f8ffdc;
@@ -93,7 +99,7 @@ h2 {
   align-items: center;
 }
 
-.about__image--wrapper {
+.section__image--wrapper {
   width: 40%;
 }
 
