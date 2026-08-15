@@ -104,6 +104,11 @@ img {
   width: 60%;
 }
 
+.about__image--wrapper,
+.section__description--paragraph {
+  padding: 0 24px;
+}
+
 .section__description--paragraph {
   font-size: 20px;
   line-height: 1.5;
