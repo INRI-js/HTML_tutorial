@@ -103,3 +103,10 @@ img {
 .section__description--wrapper {
   width: 60%;
 }
+
+.section__description--paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 24px;
+}
