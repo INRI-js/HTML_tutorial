@@ -78,6 +78,7 @@ button {
 
 #about {
   padding: 48px 0;
+  background-color: #f8ffdc;
 }
 
 h2 {
@@ -114,4 +115,8 @@ img {
   line-height: 1.5;
   color: #333;
   margin-bottom: 24px;
+}
+
+#discord {
+  background-color: #cefeff;
 }
