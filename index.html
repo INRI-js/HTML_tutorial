@@ -9,7 +9,7 @@
   <body>
     <section id="content">
       <nav>
-        <img src="./assets/FES.svg" class="logo"alt="Logo" />
+        <img src="./assets/FES.svg" class="logo" alt="Logo" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -17,16 +17,20 @@
         </ul>
       </nav>
     </section>
-    <header>
-      <div>
-        <h1>Best place to learn frontend development</h1>
-        <p class="subheader">Go from absolute beginner to to pro with a simplified process.</p>
-        <button>Get Started</button>
-      </div>
-      <figure>
-        <img src="./assets/laptop.png" alt="Laptop with code" />
-      </figure>
-    </header>
+    <div class="header-container">
+      <header>
+        <div>
+          <h1>Best place to learn frontend development</h1>
+          <p class="subheader">
+            Go from absolute beginner to to pro with a simplified process.
+          </p>
+          <button>Get Started</button>
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Laptop with code" />
+        </figure>
+      </header>
+    </div>
 
     <main>
       <section id="about">
@@ -53,17 +57,28 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <p>
-            Join our Discord server to connect with other learners and get help with your frontend development journey.
+            Join our Discord server to connect with other learners and get help
+            with your frontend development journey.
           </p>
         </div>
       </section>
 
       <section id="contact">
-        <h2>Contact</h2> 
+        <h2>Contact</h2>
         <label for="name">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Joe@gmail.com" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Joe@gmail.com"
+        />
         <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your message here..."></textarea>"
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message here..."
+        ></textarea
+        >"
         <button>Submit</button>
       </section>
     </main>
